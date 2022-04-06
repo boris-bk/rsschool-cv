@@ -1,5 +1,5 @@
 1. Boris Bortnitskii
-2. +995 551 040 187
+2. +995551040187
     boris.bortnitskii@borisbk.ru	
 3. I am proactive and result-oriented. I have 2 years of experience as an
 support engineer. Always open to learning something new, focused on results and see no barriers.
