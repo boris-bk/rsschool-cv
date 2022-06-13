@@ -38,7 +38,27 @@ body {
         transform: translateX(10em) skewX(-45deg);
     }
 }
-.conteiner {
+header {
+    display: flex;
+    max-width: 960px;
+    background-color: #eaeaea00;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+header nav ul {
+    display: flex;
+    padding: 0;
+}
+header nav ul li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+header nav ul li a {
+    text-decoration: none;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    color: #353434;
+}
+main {
     display: flex; 
     max-width: 960px;
     background-color: #eaeaea;
@@ -115,13 +135,9 @@ body {
     margin-top: 50px;
 }
 .languages {
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 50px;
-    padding-bottom: 70px;
+    padding: 40px 30px 70px ;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 40px;
 }
 .language {
     width: 100px;
@@ -242,7 +258,7 @@ body {
 }
 .list {
     list-style: none;
-    padding-left: 0px;
+    padding-left: 0;
 }
 .list-item {
     position: relative;
@@ -278,6 +294,18 @@ body {
     font-size: 14px;
     color: #777;
     font-family: 'PT Sans Narrow', sans-serif;
+}
+.experience-project {
+    margin-bottom: 30px;
+}
+.experience-project a {
+    color: #353434;
+    text-decoration: none;
+    line-height: 28px;
+    display: block;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 900;
+    font-size: 20px;
 }
 .skills-list {
     list-style: none;
@@ -645,3 +673,4 @@ footer a.footer-logo svg{
     src: url(https://fonts.gstatic.com/s/teko/v14/LYjCdG7kmE0gdXxZsCRgqA.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+
